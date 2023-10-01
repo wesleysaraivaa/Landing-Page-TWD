@@ -1,0 +1,65 @@
+.bg-home {
+    background-image: url(/assets/img/home.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-content a {
+    color: var(--white-color);
+    text-transform: uppercase;
+}
+
+.nav-logo {
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.hero {
+    padding-top: 50px;
+}
+
+.hero h1 {
+    color: var(--secundary-color);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hero p {
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+}
+
+.hero-button {
+    padding: 8px 25px;
+    margin-top: 15px;
+    font-size: 24px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background: linear-gradient(0deg, #3B372B, #3B372B), linear-gradient(0deg, var(--secundary-color), var(--secundary-color));
+    border: 3px solid var(--secundary-color);
+    transition: background-color 0.8s;
+    border-radius: 5px;
+}
+
+.hero-button:hover {
+    background-color: red;
+}

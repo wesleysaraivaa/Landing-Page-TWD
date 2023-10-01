@@ -1,0 +1,37 @@
+.curiosidades {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+
+}
+
+.curiosidades h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.curiosidades p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    color: var(--white-color);
+    font-weight: 500;
+}
+
+.curiosidades button {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    width: 190px;
+    height: 53px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.curiosidades div {
+    padding: 45px 0 0;
+}

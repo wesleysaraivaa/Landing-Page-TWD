@@ -1,0 +1,43 @@
+@import url(/assets/css/header.css);
+@import url(/assets/css/curiosidades.css);
+@import url(/assets/css/onde_assistir.css);
+@import url(/assets/css/elenco.css);
+@import url(/assets/css/temporadas.css);
+@import url(/assets/css/footer.css);
+
+:root {
+    --white-color: #FFFFFF;
+    --primary-color: #D2C4A5;
+    --secundary-color: #493E2C;
+    --background-color: #191919;
+}
+
+body {
+    background-color: var(--background-color);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 50px;
+}

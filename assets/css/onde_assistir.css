@@ -1,0 +1,25 @@
+.onde_assistir {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.onde_assistir h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.onde_assistir p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--white-color);
+}
+
+.onde_assistir img {
+    padding: 20px 0;
+    padding-right: 20px;
+}
