@@ -26,10 +26,12 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+
+ul,
+li,
 a {
     list-style: none;
     text-decoration: none;
-    cursor: pointer;
 }
 
 button {
