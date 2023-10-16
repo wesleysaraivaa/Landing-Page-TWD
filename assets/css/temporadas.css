@@ -1,39 +1,41 @@
-.temporadas {
-    padding: 20px 0 50px 0;
-}
-
 .temporadas h1 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 48px;
+    line-height: 0;
     font-weight: 400;
     color: var(--primary-color);
     text-align: center;
 }
 
-.temp-container {
+.temporadas-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 15px;
 }
 
-.temp-content {
+.temporadas-content img {
+    width: 100%;
+}
+
+.temporadas-content {
     display: flex;
     flex-basis: 45%;
     flex-grow: 1;
     gap: 30px;
 }
 
-.temp-content h2 {
+.temporadas-content h2 {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 32px;
+    font-size: 25px;
+    line-height: 1;
     font-weight: 400;
     color: var(--primary-color);
 }
 
-.temp-content p {
+.temporadas-content p {
     font-family: 'Roboto Slab', serif;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     color: var(--white-color);
 }

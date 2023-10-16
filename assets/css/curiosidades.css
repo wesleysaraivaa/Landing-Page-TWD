@@ -2,36 +2,30 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 0;
+    padding: 60px 0;
+    gap: 20px;
+}
 
+.curiosidades-title {
+    display: flex;
+    flex-direction: column;
+}
+
+.curiosidades img {
+    width: 100%;
 }
 
 .curiosidades h2 {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 32px;
+    line-height: 1;
+    font-size: clamp(2rem, 1vw + 0.1rem, 6rem);
     font-weight: 400;
     color: var(--primary-color);
+
 }
 
 .curiosidades p {
     font-family: 'Roboto Slab', serif;
-    font-size: 13px;
+    font-size: clamp(0.7rem, 0.7vw + 0.1rem, 1.6rem);
     color: var(--white-color);
-    font-weight: 500;
-}
-
-.curiosidades button {
-    background-color: var(--primary-color);
-    color: var(--background-color);
-    width: 190px;
-    height: 53px;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-.curiosidades div {
-    padding: 45px 0 0;
 }

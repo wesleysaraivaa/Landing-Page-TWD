@@ -1,5 +1,13 @@
 .elenco {
+    display: flex;
+    flex-direction: column;
     padding: 20px 0 50px 0;
+}
+
+.atores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .elenco h1 {
@@ -14,4 +22,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 670px) {
+    .atores {
+
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
 }

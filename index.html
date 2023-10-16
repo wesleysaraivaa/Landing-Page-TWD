@@ -16,8 +16,7 @@
 <body>
     <div class="bg-home">
         <header>
-            <nav class="navbar-content container">
-
+            <nav class="navbar container">
                 <img class="nav-logo" src="/assets/img/logo.svg" alt="Logo TWD">
 
                 <ul class="nav-menu">
@@ -27,16 +26,24 @@
                     <li class="nav-item"> <a href="#temporadas" class="nav-link"> Temporadas </a> </li>
                 </ul>
 
+                <div class="hamburguer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </nav>
         </header>
 
         <div class="hero container">
-            <img src="/assets/img/logo.svg" alt="Nome TWD">
-            <h1> ENTRE NO MUNDO ATERRORIZANTE <br> DOS MORTOS VIVOS </h1>
-            <p> The Walking Dead conta a história de um pequeno grupo de sobreviventes em um mundo <br>
-                pós-apocalíptico cheio de mortos-vivos. </p>
 
-            <a href="#onde_assistir"> <button> Assistir Agora </button></a>
+            <img class="hero-img" src="/assets/img/logo.svg" alt="Nome TWD">
+
+            <div>
+                <h1> ENTRE NO MUNDO ATERRORIZANTE DOS MORTOS VIVOS </h1>
+                <p> The Walking Dead conta a história de um pequeno grupo de sobreviventes em um mundo <br>
+                    pós-apocalíptico cheio de mortos-vivos. </p>
+                <a href="#onde_assistir"> <button> Assistir Agora </button></a>
+            </div>
         </div>
 
     </div>
@@ -44,37 +51,54 @@
     <main class="container">
 
         <section class="curiosidades">
-            <img src="/assets/img/CONFRONTOS-ÉPICOS-1.svg" alt="Capa da temporada 9" width="400" height="380">
-            <img src="/assets/img/CONFRONTOS-ÉPICOS-2.svg" alt="Foto do confronto épico entre Rick e Negan ">
             <div>
+                <img src="/assets/img/CONFRONTOS-ÉPICOS-1.png" alt="Foto do confronto épico entre Leah x Maggie">
+            </div>
+            <div>
+                <img src="/assets/img/CONFRONTOS-ÉPICOS-2.png" alt="Foto do confronto épico entre Rick e Negan">
+            </div>
+            <div class="curiosidades-title">
                 <h2> CONFRONTOS ÉPICOS </h2>
-                <p>The standard chunk of Lorem Ipsum used since the 1500s is <br>
-                    reproduced below for those interested. Sections 1.10.32 and 1.10.33 <br>
-                    from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in <br>
-                    their exact original form, accompanied by English versions <br>
-                    from the 1914 translation by H. Rackham.
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+                    Expedita consequatur nam quidem dolorem iste vel tenetur <br>
+                    ducimus officia, molestias nihil cum nisi ut, repudiandae <br>
+                    aut? Eius nemo tenetur nulla velit!
                 </p>
 
             </div>
         </section>
 
         <section class="onde_assistir" id="onde_assistir">
-            <img src="/assets/img/Rick.svg" alt="foto do Rick">
-            <div>
+            <div class="atores-principais">
+                <img src="/assets/img/Rick.svg" alt="foto do Rick">
+            </div>
+
+            <div class="onde_assistir-title">
                 <h2> ASSISTA EM: </h2>
                 <p> The standard chunk of Lorem Ipsum used since the <br>
                     1500s is reproduced below for those interested. <br>
                     Sections 1.10.32 and 1.10.33 from "de Finibus
                 </p>
-                <img src="/assets/img/amc_logo.svg" alt="AMC logo">
-                <img src="/assets/img/Star+_logo.svg" alt="STAR+ logo">
+                <div class="onde_assistir_canais">
+                    <div>
+                        <img src="/assets/img/amc_logo.svg" alt="AMC logo">
+                    </div>
+                    <div>
+                        <img src="/assets/img/Star+_logo.svg" alt="STAR+ logo">
+                    </div>
+                </div>
             </div>
-            <img src="/assets/img/Daryl.svg" alt="foto do Daryl">
+
+            <div class="atores-principais">
+                <img src="/assets/img/Daryl.svg" alt="foto do Daryl">
+            </div>
         </section>
 
         <section class="elenco" id="elenco">
+
             <h1>Elenco</h1>
-            <div>
+
+            <div class="atores">
                 <img src="/assets/img/andrew lincol 1.svg" alt="Ator Andrew Lincoln que interpreta Rick Grimes ">
                 <img src="/assets/img/carol 1.svg" alt="Atriz Melissa McBride que interpreta Carol Peletier">
                 <img src="/assets/img/norman 1.svg" alt="Ator Norman Reedus que interpreta Daryl Dixon">
@@ -83,16 +107,18 @@
                 <img src="/assets/img/MICHONE 1.svg" alt="Atriz Danai Gurira que interpreta Michonne">
             </div>
 
+
         </section>
 
         <section class="temporadas" id="temporadas">
             <h1>Temporadas</h1>
-            <div class="temp-container">
+            <div class="temporadas-container">
 
-                <div class="temp-content">
+                <div class="temporadas-content">
                     <div>
                         <img src="/assets/img/TEMPORADA 1.svg" alt="Capa da 1ª temporada">
                     </div>
+
                     <div>
                         <h2> 1ª temporada (2010) </h2>
                         <p> Rick Grimes é o xerife de uma pequena cidade do <br>
@@ -100,10 +126,11 @@
                             por criminosos durante uma perseguição e entra em coma.
                     </div>
                 </div>
-                <div class="temp-content">
+                <div class="temporadas-content">
                     <div>
                         <img src="/assets/img/TEMPORADA 2.svg" alt="Capa da 2ª temporada">
                     </div>
+
                     <div>
                         <h2> 2ª temporada (2011–2012) </h2>
                         <p> Rick reencontrou sua família bem e segura com um grupo <br>
@@ -113,10 +140,11 @@
                             permanecer seguros e livres da horda de zumbis espalhadas pelo mundo.
                     </div>
                 </div>
-                <div class="temp-content">
+                <div class="temporadas-content">
                     <div>
                         <img src="/assets/img/TEMPORADA 3.svg" alt="Capa da 3ª temporada">
                     </div>
+
                     <div>
                         <h2> 3ª temporada (2012–2013) </h2>
                         <p> Após os zumbis invadiram a fazenda, os sobreviventes <br>
@@ -126,10 +154,11 @@
                     </div>
                 </div>
 
-                <div class="temp-content">
+                <div class="temporadas-content">
                     <div>
                         <img src="/assets/img/TEMPORADA 4.svg" alt="Capa da 4ª temporada">
                     </div>
+
                     <div>
                         <h2> 4ª temporada (2013–2014) </h2>
                         <p> Superando as recentes perdas, os sobreviventes liderados <br>
@@ -138,10 +167,11 @@
                     </div>
                 </div>
 
-                <div class="temp-content">
+                <div class="temporadas-content">
                     <div>
                         <img src="/assets/img/TEMPORADA 5.svg" alt="Capa da 5ª temporada">
                     </div>
+
                     <div>
                         <h2> 5ª temporada (2014–2015) </h2>
                         <p> A prisão foi destruída e vidas foram perdidas. Os <br>
@@ -150,10 +180,11 @@
                     </div>
                 </div>
 
-                <div class="temp-content">
+                <div class="temporadas-content">
                     <div>
                         <img src="/assets/img/TEMPORADA 6.svg" alt="Capa da 6ª temporada">
                     </div>
+
                     <div>
                         <h2> 6ª temporada (2015–2016) </h2>
                         <p> Após serem aceitos em Alexandria, Rick Grimes e seu grupo <br>
@@ -162,10 +193,11 @@
                     </div>
                 </div>
 
-                <div class="temp-content">
+                <div class="temporadas-content">
                     <div>
                         <img src="/assets/img/TEMPORADA 7.svg" alt="Capa da 7ª temporada">
                     </div>
+
                     <div>
                         <h2> 7ª temporada (2016–2017) </h2>
                         <p> Membros do grupo de Rick são mortos brutalmente por Negan, <br>
@@ -174,10 +206,11 @@
                     </div>
                 </div>
 
-                <div class="temp-content">
+                <div class="temporadas-content">
                     <div>
                         <img src="/assets/img/TEMPORADA 8.svg" alt="Capa da 8ª temporada">
                     </div>
+
                     <div>
                         <h2> 8ª temporada (2017–2018) </h2>
                         <p> A guerra está declarada. As comunidades estão unidas e <br>
@@ -186,10 +219,11 @@
                     </div>
                 </div>
 
-                <div class="temp-content">
+                <div class="temporadas-content">
                     <div>
                         <img src="/assets/img/TEMPORADA 9.svg" alt="Capa da 9ª temporada">
                     </div>
+
                     <div>
                         <h2> 9ª temporada (2018–2019) </h2>
                         <p> Após a guerra contra os Salvadores, que causou a morte <br>
@@ -199,10 +233,11 @@
                     </div>
                 </div>
 
-                <div class="temp-content">
+                <div class="temporadas-content">
                     <div>
                         <img src="/assets/img/TEMPORADA 10.svg" alt="Capa da 10ª temporada">
                     </div>
+
                     <div>
                         <h2> 10ª temporada (2019–2021) </h2>
                         <p> Poucos meses depois, quando o grupo de sobreviventes cruzoue <br>
@@ -212,10 +247,11 @@
                     </div>
                 </div>
 
-                <div class="temp-content">
+                <div class="temporadas-content">
                     <div>
                         <img src="/assets/img/TEMPORADA 11.svg" alt="Capa da 11ª temporada">
                     </div>
+
                     <div>
                         <h2> 11ª temporada (2021–2022) </h2>
                         <p> AMC anunciou que The Walking Dead foi renovado para uma décima <br>
@@ -241,6 +277,7 @@
         </h3>
     </footer>
 
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
