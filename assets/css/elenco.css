@@ -1,16 +1,10 @@
 .elenco {
     display: flex;
     flex-direction: column;
-    padding: 20px 0 50px 0;
+    padding-top: 20px;
 }
 
-.atores {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.elenco h1 {
+.elenco h2 {
     font-family: 'Bebas Neue', sans-serif;
     font-size: 48px;
     font-weight: 400;
@@ -18,18 +12,14 @@
     text-align: center;
 }
 
-.elenco div {
+.atores {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
-@media screen and (max-width: 670px) {
-    .atores {
-
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    }
-
+.atores img {
+    max-width: 135px;
 }

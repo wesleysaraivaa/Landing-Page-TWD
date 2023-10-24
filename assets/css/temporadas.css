@@ -1,33 +1,38 @@
+.temporadas {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2.5rem;
+}
+
 .temporadas h1 {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 48px;
+    font-size: 32px;
     line-height: 0;
     font-weight: 400;
     color: var(--primary-color);
     text-align: center;
+    padding: 20px 0;
 }
 
 .temporadas-container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 15px;
+    flex-direction: column;
+    gap: 1.25rem;
 }
 
 .temporadas-content img {
-    width: 100%;
+    width: 5.3125rem
 }
 
 .temporadas-content {
+    width: 300px;
     display: flex;
-    flex-basis: 45%;
-    flex-grow: 1;
-    gap: 30px;
+    gap: .625rem;
 }
 
 .temporadas-content h2 {
     font-family: 'Bebas Neue', sans-serif;
-    font-size: 25px;
+    font-size: 1.125rem;
     line-height: 1;
     font-weight: 400;
     color: var(--primary-color);
@@ -35,7 +40,18 @@
 
 .temporadas-content p {
     font-family: 'Roboto Slab', serif;
-    font-size: 12px;
+    font-size: .5rem;
     font-weight: 500;
     color: var(--white-color);
+}
+
+.temporadas-content-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: flex-end;
+}
+
+.temporadas-content-reverse>div {
+    text-align: right;
+    margin: 0 10px;
 }

@@ -14,6 +14,7 @@
 .nav-item a {
     color: var(--white-color);
     text-transform: uppercase;
+    font-size: 20px;
 }
 
 .nav-item:hover {
@@ -31,10 +32,8 @@
 }
 
 .nav-logo {
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 200px;
+    width: 40px;
+
 }
 
 .hamburguer {
@@ -54,7 +53,7 @@
 
 
 /* RESPOSIVIDADE */
-@media (max-width:895px) {
+@media (max-width:767px) {
     .hamburguer {
         display: block;
     }
@@ -81,7 +80,6 @@
         flex-direction: column;
         width: 100%;
         transition: 0.3s;
-        background: rgba(255, 255, 255, 0.16);
         border-radius: 16px;
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(9.3px);
@@ -95,5 +93,11 @@
 
     .nav-menu.active {
         left: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav-item a {
+        font-size: 14px;
     }
 }

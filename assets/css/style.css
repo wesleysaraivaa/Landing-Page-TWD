@@ -41,6 +41,13 @@ button {
 
 .container {
     max-width: 1440px;
-    margin: 0 auto;
-    padding: 0 50px;
+    padding: 0 20px;
+}
+
+/* resposividade tablet */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1440px;
+        padding: 0 40px;
+    }
 }

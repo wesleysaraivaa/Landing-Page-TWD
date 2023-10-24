@@ -1,9 +1,11 @@
 .footer {
+
     padding: 50px;
     background-color: var(--secundary-color);
 }
 
 .footer img {
+    width: 150px;
     padding-bottom: 20px;
 }
 
@@ -11,6 +13,7 @@
     text-align: center;
     color: var(--white-color);
     font-family: 'Roboto Slab', serif;
-    font-size: 13px;
+    font-size: 8px;
     font-weight: 500px;
+    line-height: 1.2;
 }
