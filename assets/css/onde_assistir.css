@@ -8,7 +8,6 @@
     align-items: center;
     gap: 10px;
     padding-top: 40px;
-
 }
 
 .atores-principais {
@@ -44,4 +43,20 @@
     font-weight: 500;
     line-height: 1.3;
     color: var(--white-color);
+}
+
+@media screen and (min-width: 768px) {
+    .daryl {
+        display: flex;
+    }
+
+    .onde_assistir {
+        gap: 50px;
+        padding-top: 50px;
+    }
+
+    .atores-principais {
+        width: 200px;
+    }
+
 }
