@@ -53,5 +53,49 @@
 
 .temporadas-content-reverse>div {
     text-align: right;
-    margin: 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .temporadas {
+        padding-top: 3rem;
+    }
+
+    .temporadas h1 {
+        font-size: 3rem;
+    }
+
+    .temporadas-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .temporadas-content img {
+        width: 110px;
+    }
+
+    .temporadas-content {
+        width: 330px;
+    }
+
+    .temporadas-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .temporadas-content p {
+        font-size: .625rem;
+        line-height: 1.3;
+    }
+
+    .temporadas-content-reverse {
+        display: flex;
+        flex-direction: row;
+        align-self: baseline;
+        justify-content: space-between;
+    }
+
+    .temporadas-content-reverse>div {
+        text-align: left;
+    }
+
 }
