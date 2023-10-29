@@ -14,7 +14,7 @@
 .nav-item a {
     color: var(--white-color);
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .nav-item:hover {
@@ -33,6 +33,7 @@
 
 .nav-logo {
     width: 40px;
+    height: 40px;
 
 }
 
@@ -98,6 +99,6 @@
 
 @media screen and (min-width: 768px) {
     .nav-item a {
-        font-size: 14px;
+        font-size: .875rem;
     }
 }

@@ -1,19 +1,33 @@
 .footer {
-
-    padding: 50px;
     background-color: var(--secundary-color);
+    text-align: center;
+    color: var(--white-color);
+    font-family: 'Roboto Slab', serif;
+    font-size: .375rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .footer img {
     width: 150px;
+    height: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer h3 {
     padding-bottom: 20px;
 }
 
-.footer {
-    text-align: center;
-    color: var(--white-color);
-    font-family: 'Roboto Slab', serif;
-    font-size: 8px;
-    font-weight: 500px;
-    line-height: 1.2;
+@media screen and (min-width: 769px) {
+    .footer {
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    .footer img {
+        width: 150px;
+        padding-bottom: 20px;
+    }
 }
