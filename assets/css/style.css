@@ -23,8 +23,6 @@ body {
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Inter', sans-serif;
     font-family: 'Roboto Slab', serif;
-    width: 100vw;
-    height: 100vh;
 }
 
 
@@ -40,12 +38,13 @@ button {
 }
 
 .container {
-
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 0 20px;
 }
 
 /* resposividade tablet */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
     .container {
         padding: 0 40px;
     }
