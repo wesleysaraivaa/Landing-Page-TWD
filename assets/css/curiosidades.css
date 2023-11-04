@@ -60,3 +60,35 @@
         line-height: 1.3;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .curiosidades {
+        justify-content: center;
+        gap: 40px;
+        padding-top: 50px;
+    }
+
+    .curiosidades-img {
+        gap: 40px;
+    }
+
+    .curiosidades-img img {
+        width: 400px;
+        height: 308px;
+    }
+
+    .curiosidades-title {
+        text-align: left;
+        justify-content: center;
+    }
+
+    .curiosidades h2 {
+        line-height: 0;
+        font-size: 2rem;
+    }
+
+    .curiosidades p {
+        font-size: .813rem;
+        line-height: 1.5;
+    }
+}
