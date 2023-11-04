@@ -55,6 +55,7 @@
     text-align: right;
 }
 
+/* RESPONSIVIDADE TABLET */
 @media screen and (min-width: 768px) {
     .temporadas {
         padding-top: 3rem;
@@ -88,7 +89,51 @@
     }
 
     .temporadas-content-reverse {
-        display: flex;
+        flex-direction: row;
+        align-self: baseline;
+        justify-content: space-between;
+    }
+
+    .temporadas-content-reverse>div {
+        text-align: left;
+    }
+
+}
+
+/* RESPONSIVIDADE DESKTOP */
+@media screen and (min-width: 1024px) {
+    .temporadas {
+        padding-top: 60px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .temporadas-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .temporadas-content img {
+        width: 185px;
+        height: 280px;
+    }
+
+    .temporadas-content {
+        width: 600px;
+        height: 280px;
+        gap: 20px;
+    }
+
+    .temporadas-content h2 {
+        font-size: 2rem;
+    }
+
+    .temporadas-content p {
+        font-size: .85rem;
+        line-height: 1.5;
+    }
+
+    .temporadas-content-reverse {
         flex-direction: row;
         align-self: baseline;
         justify-content: space-between;
