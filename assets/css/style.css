@@ -43,9 +43,16 @@ button {
     padding: 0 20px;
 }
 
-/* resposividade tablet */
+/* RESPOSIVIDADE TABLET */
 @media screen and (min-width: 767px) {
     .container {
         padding: 0 40px;
+    }
+}
+
+/* RESPOSIVIDADE DESKTOP */
+@media screen and (min-width: 1024px) {
+    .container {
+        padding: 0 60px;
     }
 }

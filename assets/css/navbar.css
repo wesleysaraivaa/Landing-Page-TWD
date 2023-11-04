@@ -34,7 +34,6 @@
 .nav-logo {
     width: 40px;
     height: 40px;
-
 }
 
 .hamburguer {
@@ -97,8 +96,22 @@
     }
 }
 
+/* RESPOSIVIDADE TABLET */
 @media screen and (min-width: 768px) {
     .nav-item a {
         font-size: .875rem;
     }
+}
+
+/* RESPOSIVIDADE DESKTOP */
+@media screen and (min-width: 1024px) {
+    .navbar {
+        padding-top: 30px;
+    }
+
+    .nav-logo {
+        width: 100px;
+        height: 100px;
+    }
+
 }
