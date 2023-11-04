@@ -1,21 +1,23 @@
 .curiosidades {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    gap: 20px;
+    justify-content: center;
     flex-wrap: wrap;
+    gap: 20px;
     padding-top: 20px;
 }
 
-.curiosidades-img {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
+.confronto-rick-negan {
+    flex-grow: 2;
 }
 
-.curiosidades-img img {
+.confronto-maggie-leah {
+    flex-grow: 2;
+}
+
+.curiosidades img {
     width: 140px;
+    height: 130px;
 }
 
 .curiosidades-title {
@@ -39,17 +41,26 @@
     color: var(--white-color);
 }
 
+/* RESPONSIVIDADE TABLET */
 @media screen and (min-width:768px) {
     .curiosidades {
         padding-top: 30px;
-    }
-
-    .curiosidades-img {
         gap: 20px;
+        flex-wrap: nowrap;
+        justify-content: center;
     }
 
-    .curiosidades-img img {
+    .curiosidades img {
         width: 190px;
+        height: 140px;
+    }
+
+    .confronto-rick-negan {
+        flex-grow: 0;
+    }
+
+    .confronto-maggie-leah {
+        flex-grow: 0;
     }
 
     .curiosidades-title {
@@ -61,18 +72,14 @@
     }
 }
 
+/* RESPONSIVIDADE DESKTOP */
 @media screen and (min-width: 1024px) {
     .curiosidades {
-        justify-content: center;
-        gap: 40px;
+        justify-content: space-between;
         padding-top: 50px;
     }
 
-    .curiosidades-img {
-        gap: 40px;
-    }
-
-    .curiosidades-img img {
+    .curiosidades img {
         width: 400px;
         height: 308px;
     }
