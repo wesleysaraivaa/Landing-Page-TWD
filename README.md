@@ -8,7 +8,7 @@
 
 ## 💻 Projeto
 
-Este projeto do figma criado pelo Futuro Dev John, ele criou o projeto no sue canal do Youtube e disponibilizou o arquivo do figma para seus apoiadores recriar para praticar. 
+Este projeto do figma criado pelo Futuro Dev John, ele criou o projeto no seu canal do Youtube e disponibilizou o arquivo do figma para seus apoiadores praticar. 
 
 ## 🚀 Tecnologias
 
